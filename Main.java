@@ -3,12 +3,14 @@ package Tekwill;
 public class Main {
     public static void main(String[] args) {
 
-        int a = 128;
+        long l = 1000000000000l;
+        System.out.println(l);
 
-        byte b = (byte) a;
+        float f = 15.1f;
+        char c = '%';
 
-        System.out.println(b);
-
+        int i = (int) l;
+        System.out.println(i);
 
     }
 }

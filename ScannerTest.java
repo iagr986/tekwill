@@ -18,15 +18,7 @@ public class ScannerTest {
         System.out.print("What's your weight? ");
         double weight = in.nextDouble();
 
-        System.out.print("Will you suck my dick? ");
-        String suck = in.next();
-
-        if (suck.equals("no")){
-            System.out.println("Suck my dick bitch");
-        }
-        else {
-            System.out.println("Unexpected response");
 
         }
     }
-}
+
