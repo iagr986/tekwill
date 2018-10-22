@@ -9,14 +9,12 @@ public class IsLucky {
     static String isLucky(String ticketNumber) {
 
         boolean s = ticketNumber.charAt(0) + ticketNumber.charAt(1) + ticketNumber.charAt(2) == ticketNumber.charAt(3) + ticketNumber.charAt(4) + ticketNumber.charAt(5);
-        if (s == true){
+        if (s == true) {
             System.out.println("Your ticket is lucky");
-        }
-
-        else
+        } else
             System.out.println("Your ticket isnt lucky");
         return ticketNumber;
-    
+
     }
 
 
