@@ -2,7 +2,7 @@ package Tekwill;
 
 public class Array {
     public static void main(String[] args) {
-//        String[] Set = {"Helm", "Armor", "Pants", "Boots"};
+        String[] Set = {"Helm", "Armor", "Pants", "Boots"};
 //
 //        for (int i = 0; i < Set.length; i++) {
 //            Set[i] = Set[i] + " Items purchased";
